@@ -5,3 +5,28 @@
 .dog-photo{width:90px;height:90px;object-fit:cover;object-position:center 60%;border-radius:18px}
 .weekdays{padding:8px 0 12px;border:0;display:flex;gap:8px;flex-wrap:wrap}
 .weekdays label{white-space:nowrap}
+
+body{background:#f9f6ef;color:#282b24}
+.shell{padding-top:20px}
+.today-summary{background:#e7ecdf;border-radius:28px;padding:22px;margin-bottom:14px}
+.today-identity{display:flex;align-items:center;gap:15px}
+.today-identity h1{font-family:Georgia,serif;font-size:clamp(25px,7vw,38px);margin:4px 0}
+.today-summary p{margin:0;color:#4e594a}
+.today-portrait{width:78px;height:78px;object-fit:cover;object-position:center 62%;border-radius:24px}
+.today-summary progress{display:block;width:100%;height:10px;border:0;border-radius:10px;overflow:hidden;background:#cbd8c4;margin:20px 0 8px;color:#426a4c}
+.today-summary progress::-webkit-progress-bar{background:#cbd8c4}
+.today-summary progress::-webkit-progress-value{background:#426a4c}
+.today-list .section{min-height:48px}
+.exercise{background:#fffdf8;border:1px solid #e3ded1;border-radius:22px;margin:0 0 10px}
+.exercise-row{display:flex;align-items:center;padding:0 12px;gap:4px;min-height:72px}
+.exercise-row input{appearance:none;width:44px;height:44px;margin:0;border:2px solid #79a083;border-radius:100%;background:#fffdf8;flex-shrink:0}
+.exercise-row input:checked{background:#426a4c;border-color:#426a4c;color:white}
+.exercise-row input:checked::after{content:"✓";display:grid;place-items:center;height:100%;font-size:23px}
+.exercise-detail{background:none;border:0;color:inherit;min-width:0;min-height:68px;flex:1;display:flex;align-items:center;justify-content:space-between;text-align:left;padding:9px 8px;gap:8px;font:inherit}
+.exercise-detail strong,.exercise-detail small{display:block}
+.exercise-detail strong{overflow-wrap:anywhere}
+.exercise-detail small{color:#566052;margin-top:3px}
+.exercise-detail>span:last-child{font-size:24px}
+.exercise-instructions{margin:0;padding:0 18px 16px;white-space:pre-wrap}
+.nav{background:#fffcf7}
+.nav button.active{color:#284c34}
