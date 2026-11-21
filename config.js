@@ -1,4 +1,2 @@
-// Copy your Supabase Project URL and public anon key here.
-// Never paste a service_role key here.
-export const SUPABASE_URL = '';
-export const SUPABASE_ANON_KEY = '';
+export const SUPABASE_URL = 'https://tcgmyzrquwrmfldlxfyo.supabase.co';
+export const SUPABASE_ANON_KEY = "sb_publishable_ms8XZQXdsWR81wkeLT5keQ_4P48OdvS";
