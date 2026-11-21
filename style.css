@@ -30,3 +30,11 @@ body{background:#f9f6ef;color:#282b24}
 .exercise-instructions{margin:0;padding:0 18px 16px;white-space:pre-wrap}
 .nav{background:#fffcf7}
 .nav button.active{color:#284c34}
+
+.quick-picker[hidden]{display:none}
+.quick-picker h3{margin-top:0}
+.quick-plan,.reminder-shortcut{width:100%;display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:48px;text-align:left;font:inherit;color:inherit;border:1px solid #e3ded1;border-radius:16px;background:#fffdf8;padding:10px 14px;margin:0 0 8px}
+.quick-plan span:last-child,.reminder-shortcut span:last-child{color:#426a4c;font-size:22px}
+.quick-plan small,.reminder-shortcut small{display:block;color:#566052;margin-top:3px}
+.reminder-shortcut{margin-top:20px}
+.quick-picker .btn{min-height:44px}
